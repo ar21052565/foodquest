@@ -11,7 +11,7 @@ export default function Home() {
     const loadData = async () => {
         try {
             // Await the fetch call to ensure you get the resolved response
-            let response = await fetch("http://localhost:5000/api/fooditems", {
+            let response = await fetch("https://foodquest-back.onrender.com/api/fooditems", {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json'
