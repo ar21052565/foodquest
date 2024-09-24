@@ -9,7 +9,7 @@ export default function MyOrder() {
     // Fetch user order data
     const fetchMyOrder = async () => {
         try {
-            const response = await fetch("http://localhost:5000/api/myOrderData", {
+            const response = await fetch("https://foodquest-back.onrender.com/api/myOrderData", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
